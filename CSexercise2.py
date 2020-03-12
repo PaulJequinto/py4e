@@ -1,9 +1,23 @@
+a = input("Enter Hours: ")
 try:
-    a = float(input("Enter Hours: "))
-    b = float(input("Enter Rate: "))
+    c = float(a)
+    b = input("Enter Rate: ")
+    try:
+         d = float(b)
+    except:
+        print("Error, please enter numeric input")
 except:
     print("Error, please enter numeric input")
-    quit()
+
+a = input("Enter Hours: ")
+try:
+    c = float(a)
+except:
+    print("Error, please enter numeric input")
+quit()
+
+
+
 if a > 40 :
     print("Overtime")
     reg = a * b
