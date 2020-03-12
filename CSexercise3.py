@@ -1,6 +1,6 @@
+a=input("Enter score: ")
+float(a)
 try:
-  a=input("Enter score: ")
-  float(a)
   if float(a) >= 0.9 and float(a) <= 1.0:
     print("A")
   elif float(a) >= 0.8 and float(a) <= 0.9:
