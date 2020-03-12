@@ -1,5 +1,7 @@
-a = float (input ("Enter Hours:"))
-b = float (input ("Enter Rate:"))
+a = float(input ("Enter Hours:"))
+#this is fh
+b = float(input ("Enter Rate:"))
+#this is fr
 if a > 40 :
     print("Overtime")
     reg = a * b
@@ -8,5 +10,5 @@ if a > 40 :
     xp = reg + ot
 else:
     print("Regular")
-    xp= a * b 
+    #print regular
 print ("Pay:" + str(xp))
