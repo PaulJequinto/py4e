@@ -13,5 +13,5 @@ try:
     print("F")
   else:
     print("Bad score.")
-except NameError, ValueError:
+except :
     print("Bad score.")
